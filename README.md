@@ -12,3 +12,4 @@ module "webapp" {
   image_owner      = "137112412989"
   instance_type    = "c5.large"
 }
+```
