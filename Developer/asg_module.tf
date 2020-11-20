@@ -1,10 +1,5 @@
-# terraform-iaac
-###  This module is used to create ASG +  ELB. 
-####  Please Use below code to create ASG
-```
-
 module "webapp" {
-  source           = "Bekzhan-osh/asg/aws"
+  source           = "../"
   region           = "us-east-1"
   max_size         = "1"
   min_size         = "1"
